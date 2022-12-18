@@ -130,7 +130,7 @@ a.router {
 
 /* 出てくるメニューの大きさや速さ調節 */
 .menu {
-  text-align: center;
+  text-align: left;
   background-color: rgba(225, 210, 70, 0.9);
   transition: 0.5s ease;
   -webkit-transform: translateX(-105%);
