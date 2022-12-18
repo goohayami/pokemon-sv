@@ -20,6 +20,11 @@
               >ポケットモンスターシリーズ</router-link
             >
           </li>
+          <li>
+            <router-link class="router" to="/pokesv1"
+              >スカーレット・バイオレット</router-link
+            >
+          </li>
         </ul>
       </div>
     </nav>
