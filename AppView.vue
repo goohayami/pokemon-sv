@@ -27,7 +27,7 @@
       <router-view></router-view>
     </div>
   </header>
-  <footer>
+  <footer class="footer">
     <p>Copyrigh©2022 50過ぎてポケモンかよ Co.,Ltd. All Rights Reserved.</p>
   </footer>
 </template>
@@ -58,6 +58,21 @@ body {
   margin-left: 16px;
   margin-right: 16px;
 }
+
+/* パソコン表示の時 */
+@media screen and (min-width: 800px) {
+  .router-view {
+    margin-left: 104px;
+    margin-right: 104px;
+  }
+  .footer {
+    height: 40px;
+    font-size: 12px;
+    line-height: 1rem;
+    /* background-color: red; */
+  }
+}
+
 footer {
   padding: 0;
   margin: 0;

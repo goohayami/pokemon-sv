@@ -6,7 +6,7 @@
       ウィキペディア
     </p>
   </section>
-  <img style="width: 35%" src="assets/pikachu.png" alt="" />
+  <img style="width: 40%" src="assets/pikachu.png" alt="" />
   <br><br><br>
 </template>
 
