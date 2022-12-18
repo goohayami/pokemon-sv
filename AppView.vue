@@ -49,6 +49,7 @@ $(function () {
 
 <style>
 body {
+  font-family: "Noto Sans JP", sans-serif;
   margin: 0;
   padding: 0;
 }

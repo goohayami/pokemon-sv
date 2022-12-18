@@ -6,10 +6,17 @@
       ウィキペディア
     </p>
   </section>
+  <img01Path />
 </template>
 
 <script>
-// ここにスクリプト
+export default {
+  data() {
+    return {
+      img01Path: "../assets/pikachu.png",
+    };
+  },
+};
 </script>
 
 <style>
