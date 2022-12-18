@@ -21,4 +21,22 @@
   justify-content: center;
   margin-right: 20px;
 }
+
+/* パソコン表示の時 */
+@media screen and (min-width: 800px) {
+  .router-view {
+    margin-left: 104px;
+    margin-right: 104px;
+  }
+  .footer {
+    height: 40px;
+    font-size: 12px;
+    line-height: 1rem;
+  }
+  .img {
+    width: 40%;
+    height: 40%;
+    display: flex;
+  }
+}
 </style>
