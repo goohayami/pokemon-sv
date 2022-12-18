@@ -144,7 +144,7 @@ a.router {
 
 .Toggle {
   display: block;
-  position: fixed;
+  position: absolute;
   width: 42px;
   height: 42px;
   cursor: pointer;
