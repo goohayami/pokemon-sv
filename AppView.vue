@@ -74,7 +74,6 @@ body {
     height: 40px;
     font-size: 12px;
     line-height: 1rem;
-    /* background-color: red; */
   }
 }
 
