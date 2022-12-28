@@ -12,9 +12,7 @@
           <li>
             <router-link class="router" to="/add1">ポケモン概説</router-link>
           </li>
-          <!-- <li>
-            <router-link class="router" to="/add2">ポケモン概説2</router-link>
-          </li> -->
+
           <li>
             <router-link class="router" to="/add3"
               >ポケットモンスターシリーズ
@@ -26,9 +24,7 @@
             >
           </li>
           <li>
-            <router-link class="router" to="/resipe"
-              >秘伝レシピ</router-link
-            >
+            <router-link class="router" to="/resipe">秘伝レシピ</router-link>
           </li>
         </ul>
       </div>
@@ -109,7 +105,7 @@ li {
 }
 
 a.router {
-  margin-right: 60px;
+  margin-right: 90px;
 }
 .router {
   display: block;
@@ -185,7 +181,7 @@ a.router {
 }
 
 /* ここからメディアクエリ(iPad～スマホ)*/
-@media screen and (min-width: 830px) {
+@media screen and (min-width: 1200px) {
   header::after {
     display: none;
   }
