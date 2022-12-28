@@ -26,6 +26,8 @@
           <li>
             <router-link class="router" to="/resipe">秘伝レシピ</router-link>
           </li>
+          <br />
+          <br />
         </ul>
       </div>
     </nav>
