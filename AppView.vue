@@ -98,6 +98,7 @@ nav {
 
 /*ナビゲーション部分*/
 ul {
+  text-align: left;
   padding: 0;
   margin: 0;
 }
@@ -107,7 +108,7 @@ li {
 }
 
 a.router {
-  margin-right: 90px;
+  margin-right: 5px;
 }
 .router {
   display: block;
@@ -124,6 +125,8 @@ a.router {
 
 /* 出てくるメニューの大きさや速さ調節 */
 .menu {
+  margin: 0;
+  padding: 0;
   text-align: left;
   background-color: rgba(225, 210, 70, 0.9);
   transition: 0.5s ease;
