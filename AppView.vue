@@ -10,19 +10,24 @@
         <ul>
           <li><router-link class="router" to="/">ポケモンとは</router-link></li>
           <li>
-            <router-link class="router" to="/add1">ポケモン概説1</router-link>
+            <router-link class="router" to="/add1">ポケモン概説</router-link>
           </li>
-          <li>
+          <!-- <li>
             <router-link class="router" to="/add2">ポケモン概説2</router-link>
-          </li>
+          </li> -->
           <li>
             <router-link class="router" to="/add3"
-              >ポケットモンスターシリーズ</router-link
-            >
+              >ポケットモンスターシリーズ
+            </router-link>
           </li>
           <li>
             <router-link class="router" to="/pokesv1"
               >スカーレット・バイオレット</router-link
+            >
+          </li>
+          <li>
+            <router-link class="router" to="/resipe"
+              >秘伝レシピ</router-link
             >
           </li>
         </ul>
@@ -62,19 +67,6 @@ body {
 .router-view {
   margin-left: 16px;
   margin-right: 16px;
-}
-
-/* パソコン表示の時 */
-@media screen and (min-width: 800px) {
-  .router-view {
-    margin-left: 104px;
-    margin-right: 104px;
-  }
-  .footer {
-    height: 40px;
-    font-size: 12px;
-    line-height: 1rem;
-  }
 }
 
 footer {
@@ -163,9 +155,9 @@ a.router {
   width: 40px;
   border-bottom: solid 4px #333;
   /* ここも反応していないみたい */
-  /* -webkit-transition: 0.35s ease-in-out;
+  -webkit-transition: 0.35s ease-in-out;
   -moz-transition: 0.35s ease-in-out;
-  transition: 0.35s ease-in-out; */
+  transition: 51.35s ease-in-out;
 }
 
 .Toggle span:nth-child(1) {
@@ -192,8 +184,8 @@ a.router {
   transform: rotate(45deg);
 }
 
-/* ここからメディアクエリなんだけど、Htmlのヘッドタグにレスポンシブかいたらここは反応していないみたいなの */
-@media screen and (min-width: 600px) {
+/* ここからメディアクエリ(iPad～スマホ)*/
+@media screen and (min-width: 830px) {
   header::after {
     display: none;
   }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -75,11 +75,11 @@
           component: () =>
             loadModule("./views/AddPage_1.vue", vue3_sfc_loader_options),
         },
-        {
-          path: "/add2",
-          component: () =>
-            loadModule("./views/AddPage_2.vue", vue3_sfc_loader_options),
-        },
+        // {
+        //   path: "/add2",
+        //   component: () =>
+        //     loadModule("./views/AddPage_2.vue", vue3_sfc_loader_options),
+        // },
         {
           path: "/add3",
           component: () =>
@@ -89,6 +89,11 @@
           path: "/pokesv1",
           component: () =>
             loadModule("./views/PokeSV1.vue", vue3_sfc_loader_options),
+        },
+        {
+          path: "/resipe",
+          component: () =>
+            loadModule("./views/RecipePage.vue", vue3_sfc_loader_options),
         },
       ];
 
